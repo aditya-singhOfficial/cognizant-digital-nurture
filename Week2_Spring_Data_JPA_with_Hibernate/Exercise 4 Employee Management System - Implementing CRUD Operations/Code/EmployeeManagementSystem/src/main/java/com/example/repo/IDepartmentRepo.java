@@ -10,6 +10,6 @@ public interface IDepartmentRepo extends JpaRepository<Department, Integer> {
     Department findByName(String name);
 
     List<Department> findByNameStartingWith(String prefix);
-
+    
     boolean existsByName(String name);
 }
