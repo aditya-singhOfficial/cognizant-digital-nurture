@@ -41,7 +41,7 @@ Week4_Microservices/01_Creating Microservices for account and loan/Code/microser
 /node_modules
 /.pnp
 .pnp.js
-
+node_modules
 # testing
 /coverage
 
