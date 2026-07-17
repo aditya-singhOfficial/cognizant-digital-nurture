@@ -1,0 +1,28 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 200px;
+  font-family: sans-serif;
+}
+
+.counter-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.action-btn {
+  background-color: #a4f4b9;
+  border: 1px solid #333;
+  padding: 4px 12px;
+  margin-right: 8px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.action-btn:hover {
+  background-color: #8ce8a4;
+}
